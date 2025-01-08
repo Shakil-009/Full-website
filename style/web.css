@@ -12,7 +12,7 @@
 }
 /* Shared style */
 .bgs{
-    background-color: #fff8f3;
+    background-color: #FFF8F3;
 }
 .tp{
     color: #FD6E0A;
@@ -28,6 +28,7 @@
     border: none;
     padding: 16px 32px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .btn2{
     font-weight: 700;
@@ -36,6 +37,7 @@
     border:2px;
     padding: 16px 32px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .sect{
     font-size: 32px;
@@ -128,4 +130,43 @@ gap: 22px;
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+}
+/* resume styles */
+.resc{
+    display: flex;
+    gap: 22px;
+}
+.expdes, .expst{
+    color: #757575;
+}
+.expst{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.res hr{
+    margin: 20px 5px;
+}
+.ttt{
+text-align: center;
+margin-top: 50px;
+}
+/* Footer Styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.fotc{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+
 }
